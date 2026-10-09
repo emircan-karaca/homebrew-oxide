@@ -1,4 +1,4 @@
-# Homebrew Cask sablonu. `scripts/release.sh` 0.3.1 ve c632b96135f7bbc48b3b424ece4d843c836b5bf742f28d06348f5a2e6c4913d3'yi doldurup
+# Homebrew Cask sablonu. `scripts/release.sh` 0.4.0 ve b1477def26a1ff34e3d7e29d46a936d8f7f371a5bfa6f3842e64f811364345e7'yi doldurup
 # github.com/emircan-karaca/homebrew-oxide/Casks/oxide.rb olarak push eder.
 #
 # NEDEN CASK, FORMULA DEGIL
@@ -13,8 +13,8 @@
 # (Caskroom'u gorunce `brew upgrade --cask oxide` diyor), yani paketi yalnizca
 # brew degistirir ve brew'un kaydi hep dogru kalir.
 cask "oxide" do
-  version "0.3.1"
-  sha256 "c632b96135f7bbc48b3b424ece4d843c836b5bf742f28d06348f5a2e6c4913d3"
+  version "0.4.0"
+  sha256 "b1477def26a1ff34e3d7e29d46a936d8f7f371a5bfa6f3842e64f811364345e7"
 
   url "https://github.com/emircan-karaca/oxide-releases/releases/download/v#{version}/Oxide-#{version}.dmg"
   name "Oxide"
